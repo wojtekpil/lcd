@@ -17,53 +17,53 @@ out PORTC,R16
 rcall init
 
 
-ldi R30, 0b01010111   ##W
+ldi R30, 0b01010111   //W
 rcall transmisja
 
-ldi R30, 0b01101111  ##o
+ldi R30, 0b01101111  //o
 rcall transmisja
 
-ldi R30, 0b01101010  ##j
+ldi R30, 0b01101010  //j
 rcall transmisja
 
-ldi R30, 0b01100100  ##t
+ldi R30, 0b01100100  //t
 rcall transmisja
 
-ldi R30, 0b01100101  ##e
+ldi R30, 0b01100101  //e
 rcall transmisja
 
-ldi R30, 0b01101011  ##k
+ldi R30, 0b01101011  //k
 rcall transmisja
 
-ldi R30, 0b00100000 ##Spacja
+ldi R30, 0b00100000 //Spacja
 rcall transmisja
 
-ldi R30, 0b01010000  ##P
+ldi R30, 0b01010000  //P
 rcall transmisja
 
-ldi R30, 0b01101001  ##i
+ldi R30, 0b01101001  //i
 rcall transmisja
 
-ldi R30, 0b01101100  ##l
+ldi R30, 0b01101100  //l
 rcall transmisja
 
-ldi R30, 0b01101001  ##i
+ldi R30, 0b01101001  //i
 rcall transmisja
 
-ldi R30, 0b01110011  ##s
+ldi R30, 0b01110011  //s
 rcall transmisja
 
-ldi R30, 0b01111010  ##z
+ldi R30, 0b01111010  //z
 rcall transmisja
 
-ldi R30, 0b01100101 ##e
+ldi R30, 0b01100101 //e
 rcall transmisja
 
-ldi R30, 0b01101011 ##k
+ldi R30, 0b01101011 //k
 rcall transmisja
 
 
-ldi R30, 0b00100000 ##Spacja
+ldi R30, 0b00100000 //Spacja
 rcall transmisja
 
 
